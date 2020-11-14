@@ -1,0 +1,29 @@
+export const vueI18n = {"fallbackLocale":"pl","messages":{"pl":{"singin":"Zaloguj się","singup":"Zarejestruj się","main":"Aplikacja CRM umożliwia nadzorowanie, sprawdzanie statusu swojego domu oraz urządzeń peryferyjnych.","submain":"Nagrywanie z mieszkainia z laptopa, śledzenie telefonu umozliwiają zabezpiecznie się w czasie włamania lub kradzieży","recordCameraTitle":"Nagraj swoj dom z kamerki interntowej.","recordCameraDescription":"Crm powala na nagrywanie z kamerki internetowej. Pozwala to na minimalizacje kosztów.","comminicate":"Aplikacja jest w trakcie rozwoju","login":{"emailP":"Podaj adres e-mail","nameP":"Twoje imię","passwordP":"Wprowadź hasło","errorTitle":"Wystąpił problem z zalogowaniem","errorDescription":"Nie ma takiego użytkownika lub hasło jest niepoprawne ","errorTitleRegistry":"Wystąpił problem z zalożeniem konta","errorDescriptionRegistry":"Możlowe, że użytkownik o tym e-mailu istnieje\n Jeżeli email należy do Ciebie skontaktuj się z Administratorem","successTitleRegistry":"Dziekujemy za założenie konta","successDescriptionRegistry":"Aby dokończyć rejestrację prosze kliknąc w link\n aktywacyjny, ktory został wysłany na maila"},"activateTitle":"Dziekujemy zaa aktuswację","activate":"Możesz się teraz zalogować","noActivate":"Problemy z aktywacją","noActivateTitle":"Proszę skontaktowac się z administratorem"}}}
+export const vueI18nLoader = false
+export const locales = [{"code":"pl","iso":"pl-PL","name":"Polski"}]
+export const defaultLocale = 'pl'
+export const routesNameSeparator = '___'
+export const defaultLocaleRouteNameSuffix = 'default'
+export const strategy = 'prefix_except_default'
+export const lazy = false
+export const langDir = null
+export const rootRedirect = null
+export const detectBrowserLanguage = {"useCookie":true,"cookieDomain":null,"cookieKey":"i18n_redirected","alwaysRedirect":false,"fallbackLocale":null}
+export const differentDomains = false
+export const forwardedHost = false
+export const seo = false
+export const baseUrl = ''
+export const vuex = {"moduleName":"i18n","syncLocale":false,"syncMessages":false,"syncRouteParams":true}
+export const parsePages = true
+export const pages = {}
+export const encodePaths = true
+export const beforeLanguageSwitch = () => null
+export const onLanguageSwitched = () => null
+export const MODULE_NAME = 'nuxt-i18n'
+export const LOCALE_CODE_KEY = 'code'
+export const LOCALE_ISO_KEY = 'iso'
+export const LOCALE_DOMAIN_KEY = 'domain'
+export const LOCALE_FILE_KEY = 'file'
+export const STRATEGIES = {"PREFIX":"prefix","PREFIX_EXCEPT_DEFAULT":"prefix_except_default","PREFIX_AND_DEFAULT":"prefix_and_default","NO_PREFIX":"no_prefix"}
+export const COMPONENT_OPTIONS_KEY = 'nuxtI18n'
+export const localeCodes = ["pl"]

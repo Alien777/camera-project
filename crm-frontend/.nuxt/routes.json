@@ -1,0 +1,37 @@
+[
+  {
+    "name": "panel___pl",
+    "path": "/panel",
+    "component": "/home/adam/Documents/CRM-PROJECT/crm-frontend/pages/panel.vue",
+    "chunkName": "pages/panel",
+    "_name": "_10fc34f0"
+  },
+  {
+    "name": "singin___pl",
+    "path": "/singin",
+    "component": "/home/adam/Documents/CRM-PROJECT/crm-frontend/pages/singin.vue",
+    "chunkName": "pages/singin",
+    "_name": "_4064a1c0"
+  },
+  {
+    "name": "singup___pl",
+    "path": "/singup",
+    "component": "/home/adam/Documents/CRM-PROJECT/crm-frontend/pages/singup.vue",
+    "chunkName": "pages/singup",
+    "_name": "_1737f4d4"
+  },
+  {
+    "name": "activate-id___pl",
+    "path": "/activate/:id?",
+    "component": "/home/adam/Documents/CRM-PROJECT/crm-frontend/pages/activate/_id.vue",
+    "chunkName": "pages/activate/_id",
+    "_name": "_1de779ca"
+  },
+  {
+    "name": "index___pl",
+    "path": "/",
+    "component": "/home/adam/Documents/CRM-PROJECT/crm-frontend/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_1fbced56"
+  }
+]

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>crm</artifactId>
+        <groupId>pl.lasota</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>crm-controller</artifactId>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>pl.lasota</groupId>
+            <artifactId>crm-service</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>pl.lasota</groupId>
+                    <artifactId>crm-repository</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>pl.lasota</groupId>
+                    <artifactId>crm-domain</artifactId>
+                </exclusion>
+
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>pl.lasota</groupId>
+            <artifactId>crm-domain</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>pl.lasota</groupId>
+            <artifactId>crm-dto</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>pl.lasota.tool.cache</groupId>
+            <artifactId>cache</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-validator</artifactId>
+        </dependency>
+    </dependencies>
+</project>
